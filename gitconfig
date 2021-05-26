@@ -1,6 +1,6 @@
 [core]
 	commitGraph = true
-	editor = code -w
+	editor = vim
 	attributesfile = /Users/jfcouture/.gitattributes
 [diff]
 	algorithm = patience
@@ -16,9 +16,6 @@
 [user]
 	name = Jean-Francois Couture
 	email = jeanfrancois.couture@shopify.com
-[credential]
-	helper =
-	helper = store --file /opt/dev/var/private/git_credential_store
 [alias]
 	st = status
 	co = checkout
